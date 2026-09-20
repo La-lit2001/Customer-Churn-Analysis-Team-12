@@ -1,0 +1,5 @@
+Cluster,tenure,MonthlyCharges,SeniorCitizen,ChurnRate,MostCommonContract,MostCommonInternet,ClusterSize
+0,54.3,35.0,0.1,0.048,Month-to-month,DSL,1128
+1,15.1,81.8,0.2,0.491,Month-to-month,DSL,2134
+2,58.6,93.2,0.2,0.156,Month-to-month,DSL,1888
+3,11.3,33.9,0.1,0.248,Month-to-month,DSL,1591

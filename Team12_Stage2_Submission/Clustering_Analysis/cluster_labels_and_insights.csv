@@ -1,0 +1,5 @@
+Cluster,ClusterLabel,ClusterSize,AvgTenureMonths,AvgMonthlyCharges,ChurnRate
+0,Loyal Low-Spend,1128,54.35,35.03,5.0%
+1,New High-Spend (High Risk),2134,15.1,81.77,49.0%
+2,Loyal High-Spend,1888,58.61,93.18,16.0%
+3,New Low-Spend,1591,11.26,33.88,25.0%
