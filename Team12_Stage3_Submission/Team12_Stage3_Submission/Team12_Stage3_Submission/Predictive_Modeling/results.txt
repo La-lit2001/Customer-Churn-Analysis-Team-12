@@ -1,0 +1,28 @@
+ARCHITECTURE
+Input layer: 12 features (gender, SeniorCitizen, Dependents, tenure, PhoneService, MultipleLines, MonthlyCharges, InternetService_DSL, InternetService_Fiber optic, Contract_Month-to-month, Contract_One year, Contract_Two year)
+Hidden layer 1: 32 neurons, ReLU
+Hidden layer 2: 16 neurons, ReLU
+Output layer: 1 neuron, churn probability
+Optimiser: Adam (lr=0.001, L2 alpha=0.001), batch size 64, early stopping (10% validation, patience 15)
+
+TRAIN/TEST: 5392 train (balanced to 7918) / 1349 test
+
+METRICS (test set)
+{
+  "accuracy": 0.724,
+  "precision": 0.488,
+  "recall": 0.788,
+  "f1": 0.603,
+  "auc": 0.817
+}
+
+CONFUSION MATRIX [[TN FP],[FN TP]]
+[[695, 296], [76, 282]]
+
+TOP FACTORS
+tenure                 0.273
+MonthlyCharges         0.133
+Dependents             0.014
+InternetService_DSL    0.014
+SeniorCitizen          0.011
+PhoneService           0.010
